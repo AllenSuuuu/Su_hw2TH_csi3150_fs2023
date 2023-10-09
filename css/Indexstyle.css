@@ -1,0 +1,141 @@
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial;
+}
+
+/* Style the header */
+header {
+  background-color: black;
+  color: cyan;
+  text-align: left;
+  padding: 20px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li.logo img {
+  max-width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease; /* CSS transition */
+}
+
+nav ul li a:hover {
+  color: orange; /* Hover pseudo-class */
+}
+
+/* Style the main content */
+.avatar {
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 20%;
+  float: right;
+  height: auto;
+}
+
+.intro {
+  text-indent: 20px;
+  font-style: italic;
+}
+
+.Epitch {
+  margin: 20px 0;
+  width: 50%;
+}
+
+.ref {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.ref:hover {
+  color: cyan;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+.PTD {
+  background-color: rgb(162, 168, 213);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  width: 50%;
+  float: left;
+}
+
+.PTD h2 {
+  color: #007bff;
+}
+
+footer {
+  text-align: left;
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: white;
+  color: black;
+  width: 50%;
+  float: left;
+}
+
+/* Make some changes to smartphones */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  .avatar {
+    margin: 10px auto;
+  }
+
+  .intro {
+    text-indent: 10px;
+    font-size: 14px;
+  }
+
+  .Epitch {
+    font-size: 14px;
+  }
+
+  .PTD {
+    padding: 10px;
+  }
+}
